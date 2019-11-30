@@ -1,0 +1,50 @@
+.footer-subscribe_part {
+  position: relative;
+  display: block;
+  padding: 200px 0 50px;
+  margin: 200px 0 50px;
+}
+
+.footer-subscribe .image-box {
+  position: absolute;
+  top: 0px;
+  z-index: 1;
+}
+
+.footer-subscribe .footer-subscribe-form {
+  position: relative;
+  display: block;
+  padding: 67px 100px;
+  background: #fff;
+  -webkit-box-shadow: 1px 18px 34px rgba(203, 202, 203, 0.35);
+  box-shadow: 1px 18px 34px rgba(203, 202, 203, 0.35);
+  border-radius: 10px;
+  margin: auto;
+  width: 100%;
+  z-index: 1;
+}
+
+.footer-subscribe .form-group input[type='email'] {
+  width:100%;
+  border: none;
+  border-bottom: 1px solid #f2d6ff;
+  border-radius: 0;
+  height: 70px;
+  padding: 15px 0;
+  outline: none;
+}
+
+ .footer-subscribe button.btn-style {
+  border-radius: 5px;
+  background: linear-gradient(90deg, var(--c1, #2da5ff), var(--c2, #f147fc ) 51%, var(--c1, #2da5ff)) var(--x, 0)/ 200%;
+}
+
+.footer-subscribe_part:after {
+  background-size: cover;
+  background: url(../../../assets/img/footer-bg-4.png) no-repeat top center;
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: -webkit-fill-available;
+  top: 0;
+}

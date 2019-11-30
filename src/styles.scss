@@ -1,1 +1,367 @@
 /* You can add global styles to this file, and also import other style files */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
+  font-family: 'Muli', sans-serif;
+  background-size: cover;
+  background: #ffffff no-repeat center top;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+.navbar .nav-item:hover{
+  border-bottom: 1px solid black;
+}
+
+.navbar-light .navbar-toggler{
+  border: none;
+  outline: none;
+}
+
+.navbar-transparent {
+  background-color: transparent !important;
+  border-bottom: 1px solid transparent;
+  padding-top: 56px !important;
+}
+
+.navbar-transparent {
+  background: transparent !important;
+  border-bottom: 1px solid transparent;
+  box-shadow: none !important;
+}
+
+@media (max-width: 767px) {
+  .navbar-transparent {
+    background-color: rgba(0, 0, 0, 0.45);
+  }
+}
+.page-header {
+  background-color: transparent;
+  background-position: center center;
+  background-size: cover;
+  min-height: 100vh;
+  max-height: 999px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -ms-flex-pack: center; }
+
+.form-control, .navbar {
+  -webkit-transition: all 300ms linear;
+  transition: all 300ms linear;
+}
+.navbar.navbar-light {
+  background: white;
+  box-shadow: 0 0 4px rgba(0,0,0,.14), 0 4px 8px rgba(0,0,0,.28);
+  transition: all .5s ease-in-out;
+  -webkit-transition: .5s ease-in-out;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+
+.banner-style-four .inner-box .content-box {
+  position: relative;
+  display: block;
+  max-width: 720px;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.flot-bob-y {
+  animation-name: float-bob-y;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  -webkit-animation-name: float-bob-y;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-name: float-bob-y;
+
+  -moz-animation-duration: 2s;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+  -ms-animation-name: float-bob-y;
+  -ms-animation-duration: 2s;
+  -ms-animation-iteration-count: infinite;
+  -ms-animation-timing-function: linear;
+  -o-animation-name: float-bob-y;
+  -o-animation-duration: 2s;
+  -o-animation-iteration-count: infinite;
+  -o-animation-timing-function: linear;
+}
+
+@keyframes float-bob-y {
+  0% {
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+
+  50% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+
+  100% {
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+}
+
+.banner .inner-box {
+  position: relative;
+  display: block;
+  width: 100%;
+}
+
+.inner-box .content-box {
+  position: relative;
+  display: block;
+  max-width: 720px;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+ .image-box {
+  padding: 0 120px 90px 80px;
+}
+
+.inner-box .image-1 {
+  position: absolute;
+  left: -100px;
+  bottom: -300px;
+}
+
+.inner-box .image-2 {
+  position: absolute;
+  left: 50px;
+  bottom: -270px;
+}
+.inner-box .image-3 {
+  position: absolute;
+  left: 280px;
+  bottom: -250px;
+}
+.inner-box .image-4 {
+  position: absolute;
+  right: -181px;
+  bottom: -420px;
+}
+.inner-box .image-5 {
+  position: absolute;
+  right: -150px;
+  bottom: -300px;
+}
+
+.inner-box .content-box h1 {
+  position: relative;
+  display: block;
+  font-size: 60px;
+  line-height: 70px;
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 34px;
+}
+
+.navbar {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.inner-box .content-box .text {
+  position: relative;
+  display: block;
+  font-size: 22px;
+  line-height: 30px;
+  margin-bottom: 90px;
+  color: #fff;
+}
+
+.navbar .nav-item {
+  position: relative;
+  display: block;
+  font-size: 18px;
+  color: black;
+  line-height: 30px;
+  font-family: 'Muli', sans-serif;
+  opacity: 1;
+  text-transform: uppercase;
+  transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -webkit-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+}
+
+.navbar .nav-item a {
+  color: #2f2f2f !important;
+  padding: 10px 20px !important;
+  line-height: 30px;
+  font-size: 15px;
+  font-weight: 500;
+  min-height: 0px;
+  background: none;
+  border: 0px;
+}
+.navbar.navbar-transparent .nav-item a {
+  color: white !important;
+  line-height: 30px;
+  font-size: 15px;
+  font-weight: 500;
+  min-height: 0px;
+  background: none;
+  border: 0px;
+}
+
+.feature-style {
+  position: relative;
+  display: block;
+  padding: 200px 0px 270px;
+}
+
+.feature-block-content {
+  position: relative;
+  display: block;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: none;
+  transition: all 500ms ease;
+}
+
+.feature-block-content .icon-box {
+  position: relative;
+  display: block;
+  min-height: 94px;
+  margin: 0 auto;
+  width: auto;
+  height: auto;
+  margin-bottom: 13px;
+  overflow: hidden;
+}
+
+.feature-style:before {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 663px;
+  left: 0px;
+  bottom: 0px;
+  background-size: cover;
+  background: url(assets/img/story-bg.png) no-repeat bottom center;
+}
+
+.learning_part{
+  position: relative;
+  display: block;
+  padding: 150px 0 90px 0;
+}
+
+.btn-style {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 18px;
+  color: #fff;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 13.5px 29.5px;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 0px 20px 30px -10px rgba(211, 87, 251, 0.50);
+  transition: all 500ms ease;
+  background: linear-gradient(90deg, var(--c1, #2da5ff), var(--c2, #f147fc ) 51%, var(--c1, #2da5ff)) var(--x, 0)/ 200%;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.banner {
+  position: relative;
+  display: block;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.navbar-transparent .collapse.show .nav-item a {
+  color: #2f2f2f !important;
+}
+.collapse.show {
+  background: white;
+  transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -webkit-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+}
+.collapsing {
+  background: white;
+  color: #2f2f2f !important;
+  transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -webkit-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  .banner {
+    padding: 160px 0 0 0;
+  }
+  .footer-subscribe .image-box {
+    padding: 0;
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .banner {
+    padding: 160px 0 0 0;
+  }
+  .footer_top {
+    padding: 120px 20px 110px 20px;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .banner {
+    padding: 250px 120px 285px 110px;
+  }
+  .footer_top {
+    padding: 120px 20px 110px 20px;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .banner {
+    padding: 250px 120px 285px 110px;
+  }
+  .footer_top {
+    padding: 120px 250px 110px 285px;
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  .banner {
+    padding: 250px 120px 285px 110px;
+  }
+  .footer_top {
+    padding: 120px 250px 110px 285px;
+  }
+}

@@ -1,18 +1,56 @@
-# MsCds
+# Angular 8 - A simple Angular App
+# Education Plus
+### Created By Mariselvam
+    
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.1
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.1.
+[Demo URL](https://github.com/angular/angular-cli)
 
-## Development server
+## Feature list
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+ * Simple Header
+ * Scrollable Body
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Angular 8 features used
+
+ * Modules
+ * Routes
+ * Components
+ * Browser Animations
+ * Directives
+ * Pipes
+ * Filters
+ 
+
+## Libraries Used
+
+ * Google front end design
+ * Font Awesome Icons
+ * Bootstrap for responsive design
+
+## Quick Start
+
+Run `npm install` for installing dependencies.
+
+Run `npm start` for a dev server, You will be automatically navigated to `http://localhost:4200/`.
+
+The app will automatically reload if you change any of the source files.
+
+## Browser Support
+
+[<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png" alt="Chrome" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br> Chrome 
+[<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png" alt="Firefox" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br> Firefox 
+[<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/edge/edge_48x48.png" alt="IE / Edge" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br> IE / Edge
+[<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari/safari_48x48.png" alt="Safari" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br> Safari 
+[<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/opera/opera_48x48.png" alt="Opera" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br> Opera 
+
 
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+
+Use the `ng build --prod` flag for a production build.
 
 ## Running unit tests
 

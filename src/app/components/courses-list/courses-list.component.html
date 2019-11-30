@@ -1,0 +1,31 @@
+<section class="course_list_part">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-sm-6 col-md-6 col-lg-4" *ngFor="let course of courses;">
+        <div class="card single_courses w-100 border-0" style="width: 18rem;">
+          <img class="card-img-top" src="{{course.imageUrl}}" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">{{course.title}}</h5>
+            <p class="card-text">{{course.description}}</p>
+            <div class="star_prise d-flex justify-content-between border-top pt-2 pb-0">
+              <div class="star">
+                <span>{{course.star}}</span>
+              </div>
+              <div class="prise">
+                <span class="offer text-muted"><del>${{course.price}}</del></span>
+                <span class="active_prise">
+                    ${{course.activePrice}}
+              </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-xl-12">
+      <div class="more_courses text-center">
+        <button class="btn btn-style text-white">More Courses</button>
+      </div>
+    </div>
+  </div>
+</section>

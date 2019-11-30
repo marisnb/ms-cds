@@ -1,0 +1,27 @@
+.footer_part{
+  position: relative;
+  display: block;
+  padding: 200px 0 50px;
+}
+.scroll-top {
+  position: fixed;
+  right: 2%;
+  bottom: 50px;
+  font-size: 24px;
+  line-height: 20px;
+  z-index: 99;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  transition: all 900ms;
+  padding: 20px;
+  border-radius: 50%;
+  -webkit-box-shadow: 2px 30px 34px rgba(0, 0, 0, 0.20);
+  box-shadow: 2px 30px 34px rgba(0, 0, 0, 0.20);
+  -webkit-animation: pulse-4 3s infinite;
+  -o-animation: pulse-4 3s infinite;
+  animation: pulse-4 3s infinite;
+  background: linear-gradient(90deg, var(--c1, #a5b3fe), var(--c2, #e21dfb ) 51%, var(--c1, #a5b3fe)) var(--x, 0)/ 200%;
+  border: none;
+  outline: none;
+}

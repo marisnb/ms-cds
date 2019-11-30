@@ -1,0 +1,62 @@
+.user-details_part {
+  position: relative;
+  display: block;
+  padding: 200px 0px 50px;
+}
+
+.user-details_part .inner-content {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  padding: 187px 0px 120px 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.user-details_part .inner-content:before {
+  position: absolute;
+  content: '';
+  background: url(../../../assets/img/cta-11.png);
+  bottom: 0px;
+  left: 0px;
+  width: 258px;
+  height: 359px;
+  background-repeat: no-repeat;
+}
+
+.user-details_part .inner-content:after {
+  position: absolute;
+  content: '';
+  background: url(../../../assets/img/cta-10.png);
+  bottom: 0px;
+  right: 0px;
+  width: 230px;
+  height: 445px;
+  background-repeat: no-repeat;
+}
+
+.single_member_counter span {
+  font-size: 60px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.single_member_counter h4:after {
+  position: absolute;
+  left: 0;
+  top: -20px;
+  right: 0;
+  margin: 0 auto;
+  width: 60px;
+  height: 1px;
+  background-color: #fff;
+  content: "";
+}
+
+.single_member_counter h4 {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 28px;
+  text-transform: capitalize;
+  position: relative;
+}

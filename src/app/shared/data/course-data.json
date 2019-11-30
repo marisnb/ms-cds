@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "title": "Web Development",
+    "description": "Which whose darkness saying were life unto fish wherein all fish of together called",
+    "star": 4.5,
+    "imageUrl": "../../../assets/img/1.png",
+    "price": 89.01,
+    "activePrice": 79.01
+  },
+  {
+    "id": 2,
+    "title": "Web UX/UI Design ",
+    "description": "Which whose darkness saying were life unto fish wherein all fish of together called",
+    "star": 4.2,
+    "imageUrl": "../../../assets/img/2.png",
+    "price": 84.01,
+    "activePrice": 74.01
+  },
+  {
+    "id": 3,
+    "title": "Wordpress Development",
+    "description": "Which whose darkness saying were life unto fish wherein all fish of together called",
+    "star": 4.7,
+    "imageUrl": "../../../assets/img/3.png",
+    "price": 88.01,
+    "activePrice": 78.01
+  },
+  {
+    "id": 4,
+    "title": "Mobile App design step by step from beginner",
+    "description": "Which whose darkness saying were life unto fish wherein all fish of together called",
+    "star": 4.3,
+    "imageUrl": "../../../assets/img/4.png",
+    "price": 84.01,
+    "activePrice": 74.01
+  },
+
+  {
+    "id": 5,
+    "title": "How to complete user research and make work flow",
+    "description": "Which whose darkness saying were life unto fish wherein all fish of together called",
+    "star": 4.9,
+    "imageUrl": "../../../assets/img/5.png",
+    "price": 89.01,
+    "activePrice": 79.01
+  },
+  {
+    "id": 6,
+    "title": "Darkness commitment to dedicated Support",
+    "description": "Which whose darkness saying were life unto fish wherein all fish of together called",
+    "star": 4.3,
+    "imageUrl": "../../../assets/img/6.png",
+    "price": 84.00,
+    "activePrice": 74.00
+  }
+
+]
