@@ -6,7 +6,6 @@ import { NouisliderModule } from 'ng2-nouislider';
 import { RouterModule } from '@angular/router';
 
 import { ComponentsComponent } from './components.component';
-import { MainHeaderComponent } from './main-header/main-header.component';
 import { FeaturesComponent } from './features/features.component';
 import { LearningComponent } from './learning/learning.component';
 import { CoursesComponent } from './courses/courses.component';
@@ -24,7 +23,6 @@ import { SubscribeComponent } from './subscribe/subscribe.component';
   ],
   declarations: [
     ComponentsComponent,
-    MainHeaderComponent,
     FeaturesComponent,
     LearningComponent,
     CoursesComponent,

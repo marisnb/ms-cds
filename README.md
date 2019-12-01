@@ -4,7 +4,7 @@
     
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.1
 
-[Demo URL](https://github.com/angular/angular-cli)
+[Demo URL](https://marisnb.github.io/ms-cds/)
 
 ## Feature list
 

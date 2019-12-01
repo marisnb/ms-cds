@@ -9,21 +9,14 @@ const routes: Routes = [
   { path: 'home', component: ComponentsComponent },
 ];
 
-
-@NgModule({
-  imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
-})
-
 @NgModule({
   imports: [
     CommonModule,
     BrowserModule,
-    RouterModule.forRoot(routes, {
-      useHash: true
-    , anchorScrolling: 'enabled'})
+    RouterModule.forRoot(routes)
   ],
   exports: [
+    RouterModule
   ],
 })
 export class AppRoutingModule { }
